@@ -9,7 +9,8 @@ namespace FunctionServiceTest
         [TestMethod]
         public void TestMethod1()
         {
-            
+            new AzureFunction();
+            new FunctionService.Test();
         }
     }
 }

@@ -3,7 +3,7 @@
 using System;
 using System.Diagnostics;
 
-namespace AzureFunction
+namespace FunctionService
 {
     class Test
     {
