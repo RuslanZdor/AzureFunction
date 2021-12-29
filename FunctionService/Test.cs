@@ -5,9 +5,9 @@ using System.Diagnostics;
 
 namespace FunctionService
 {
-    class Test
+    public class Test
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("Calling Method1");
             Method1(3);

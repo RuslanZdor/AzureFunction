@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FunctionService;
 
 namespace MSFunctionServiceTest
 {
@@ -8,6 +9,7 @@ namespace MSFunctionServiceTest
         [TestMethod]
         public void TestMethod1()
         {
+            Test.Main();
         }
     }
 }
